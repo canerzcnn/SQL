@@ -9,9 +9,9 @@ SELECT COUNT(title) FROM film
 WHERE title LIKE 'T%' AND rating = 'G';
 
 4-
-SELECT count(DISTINCT country) FROM country
+SELECT COUNT(DISTINCT country) FROM country
 WHERE country LIKE '_____';
 
 5-
-SELECT count(distinct city) FROM city
+SELECT COUNT(DISTINCT city) FROM city
 WHERE city ILIKE '%r';
